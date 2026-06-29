@@ -8,6 +8,9 @@ first_name = "Alice"
 last_name = 'Johnson'
 full_name = first_name + " " + last_name       # concatenation
 greeting  = f"Hello, {full_name}!"             # f-string
+str1 = "Hello"
+str2 = "world"
+str3 = f"{str1}, {str2}"
 
 print("── Strings ──")
 print(first_name)               # Alice
@@ -17,7 +20,7 @@ print(type(first_name))         # <class 'str'>
 print(len(full_name))           # 13  (number of characters)
 print(full_name.upper())        # ALICE JOHNSON
 print(full_name.lower())        # alice johnson
-
+print(str3)
 
 # ── 2. INTEGER (int) ─────────────────────────
 age          = 25
